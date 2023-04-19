@@ -1,0 +1,110 @@
+.wr{
+    position: relative;
+    background:lightsalmon;
+    font-weight:500;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    padding-right: 8px;
+}
+
+.menu li:nth-child(5){
+    margin-left: auto;
+}
+
+.menu li{
+    padding-top: 8px;
+}
+
+.menu li:nth-child(2){
+    margin-top: 4px;
+   
+}
+.menu li:nth-child(3){
+    margin-top: 20px;
+    
+}
+.menu li:nth-child(4){
+    margin-top: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.activLink{
+    color: brown;
+}
+
+.noactivLink{
+    display: none;
+}
+
+.img__serch{
+    height: 5px;
+}
+.img__heart{
+    max-height: 30px;
+}
+
+.button{
+    padding: 0;
+    max-height: 30px;
+}
+
+.favourites{
+    display: flex;
+    flex-direction: row;
+    color:indigo;
+}
+
+.user{
+    color:black;
+}
+.basketCounter{
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    border: 1px solid darkgreen;
+    color:darkgreen;
+    background-color:aliceblue;  
+    margin-left: 2px;
+} 
+
+.basketNavLink{
+    display: flex;
+    flex-direction: row;
+    color: darkgreen;
+}
+
+.wr_heart{
+    position: relative;
+}
+.count__heart{
+    position: absolute;
+    left: 10.5px;
+    top:3px;
+}
+
+
+/* .count__heart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    width: 25px;
+    text-align: center;
+    border: 1px solid yellow;
+    color:darkgreen;
+    background-color:aliceblue;  
+    margin-left: 2px;
+}  */

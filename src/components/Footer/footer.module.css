@@ -1,0 +1,16 @@
+.footer {
+    position: relative;
+    display: flex;
+    background:lightsalmon;
+    font-weight:500;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    position: relative;
+    padding: 20px;
+    font-size: 20px;  
+}

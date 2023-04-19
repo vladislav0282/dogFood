@@ -1,0 +1,42 @@
+.header{
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    left:0px;
+    top: 100px;
+    width:100vw;
+    padding: 0;
+    margin: 0;
+    z-index: 9;
+    background-color: white;
+}
+.left {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: blue;
+    gap: 8px;
+    border-radius: 8px;
+
+}
+.right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: blue;
+    min-width: 170px;
+    max-height: 200px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.rightInner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+ /* border: 1px solid black; */

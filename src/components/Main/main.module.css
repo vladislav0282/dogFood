@@ -1,0 +1,19 @@
+.wr{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 88vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+   
+}
+
+.wr__text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: chocolate;
+}
+
+

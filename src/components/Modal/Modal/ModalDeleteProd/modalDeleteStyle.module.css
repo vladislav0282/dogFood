@@ -1,0 +1,30 @@
+.wrap{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 99999;
+    backdrop-filter: blur(3px);
+  }
+
+  .modalInner {
+	position: absolute;
+  text-align: center;
+  padding-top: 5rem;
+ 
+	background: white;
+	border-radius: 8px;
+	width: 400px;
+	height: 200px;
+}
+
+.closeBtn {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}

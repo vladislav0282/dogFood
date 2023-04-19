@@ -1,0 +1,14 @@
+.wr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+button{
+    max-width: 200px;
+    max-height: 50px;
+    justify-content: center;
+}
+
