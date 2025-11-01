@@ -2,7 +2,7 @@
 // eslint-disable-next-line import/named
 import Loader from '../louder/Louder'
 
-export const withQuery = (WrappedComponent) => function ({
+export const withQuery = (WrappedComponent) => function WithQuery({
   isLoading, isError, error, refetch, ...rest
 }) {
   if (isLoading) return <Loader />
