@@ -64,6 +64,9 @@ const router = createBrowserRouter([
         element: <ProductCreate />,
       },
     ],
+
+    basename: '/dogFood',
+
   },
 ])
 
