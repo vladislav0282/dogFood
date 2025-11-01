@@ -64,11 +64,8 @@ const router = createBrowserRouter([
         element: <ProductCreate />,
       },
     ],
-
-    basename: '/dogFood',
-
   },
-])
+], { basename: '/dogFood' })
 
 const queryClient = new QueryClient({
   defaultOptions: {
